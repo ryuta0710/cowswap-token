@@ -1,55 +1,24 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
-
-# generated contract types
-/src/lib/locales/**/*.js
-/src/lib/locales/**/en-US.po
-/src/lib/locales/**/pseudo.po
-/src/locales/**/*.js
-/src/locales/**/*.ts
-/src/locales/**/*.json
-/src/locales/**/en-US.po
-/src/locales/**/pseudo.po
-
-# dependencies
-node_modules
-
-# testing
-/coverage
-cypress.env.json
-
-# builds
-/build
-/dts
-/public/cosmos
-/dist
-/dev-dist
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-/.netlify
-
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-notes.txt
-.idea/
+node_modules
+dist
+dist-ssr
+*.local
 
-.vscode/
-
-package-lock.json
-
-cypress/videos
-cypress/screenshots
-cypress/fixtures/example.json
-cypress-custom/videos
-cypress-custom/screenshots
-cypress-custom/fixtures/example.json
-
-# public
-public/version.json
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
